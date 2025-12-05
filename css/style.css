@@ -1,49 +1,21 @@
-@font-face {
-  font-family: "Iosevka Web";
-  font-display: swap;
-  font-weight: 400;
-  font-style: normal;
-  src: url("../fonts/Iosevka-Regular.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Iosevka Web";
-  font-display: swap;
-  font-weight: 700;
-  font-style: normal;
-  src: url("../fonts/Iosevka-Bold.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Iosevka Web";
-  font-display: swap;
-  font-weight: 400;
-  font-style: italic;
-  src: url("../fonts/Iosevka-Italic.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Iosevka Web";
-  font-display: swap;
-  font-weight: 700;
-  font-style: italic;
-  src: url("../fonts/Iosevka-BoldItalic.woff2") format("woff2");
-}
-
 body {
   background-color: #1c1c1c;
   color: #ebdbb2;
-  font-family: "Iosevka Web", monospace;
   margin: 1em;
   font-size: 1.2em;
+  font-family: Serif;
+
+  h1,
+  h2 {
+    font-family: Cursive;
+  }
 }
 
 a {
   text-decoration-line: underline;
 }
 
-.contact {
-}
-
-.things-i-like {
+div:not(:last-child),
+hr {
+  margin-bottom: 40px;
 }
