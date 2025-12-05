@@ -1,4 +1,5 @@
 serve:
+	open http://[::]:8000
 	python3 -m http.server
 
 make-meta:
